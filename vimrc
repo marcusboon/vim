@@ -35,6 +35,7 @@ execute pathogen#infect()
 "Type gs to show this"
 map gs :execute('!php ~/.vim/plugin/gs.php % ' . line('.'))<cr>
 
+"NERDTree stuff"
 "Automatically load nerdtree when we open vim"
 autocmd vimenter * if !argc() | NERDTree | endif
 
@@ -43,3 +44,6 @@ map <C-n> :NERDTreeToggle<CR>
 
 "Close vim when only nerdtree is left"
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+"Fix weird chars"
+let g:NERDTreeDirArrows=0
