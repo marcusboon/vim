@@ -32,6 +32,7 @@ execute pathogen#infect()
 "Toggle command-t"
 map ,t :CommandT<CR>
 map ,b :CommandTBuffer<CR>
+map ,j :CommandTJump<CR>
 
 "NERDTree stuff"
 "Automatically load nerdtree when we open vim"
