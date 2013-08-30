@@ -28,12 +28,9 @@
 "Use pathogen to manage plugins"
 execute pathogen#infect()
 
-"For easier buffers, this maps F5 to show buffers"
-:nnoremap ` :buffers<CR>:buffer<Space>
-
-"For a more awesome git blame"
-"Type gs to show this"
-map gs :execute('!php ~/.vim/plugin/gs.php % ' . line('.'))<cr>
+"Command-T stuff"
+"Toggle command-t"
+map ,t :CommandT<CR>
 
 "NERDTree stuff"
 "Automatically load nerdtree when we open vim"
@@ -47,3 +44,10 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 "Fix weird chars"
 let g:NERDTreeDirArrows=0
+
+"For easier buffers, this maps F5 to show buffers"
+:nnoremap ` :buffers<CR>:buffer<Space>
+
+"For a more awesome git blame"
+"Type gs to show this"
+map gs :execute('!php ~/.vim/plugin/gs.php % ' . line('.'))<cr>
