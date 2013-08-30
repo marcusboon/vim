@@ -40,3 +40,6 @@ autocmd vimenter * if !argc() | NERDTree | endif
 
 "Toggle nerdtree with keypress"
 map <C-n> :NERDTreeToggle<CR>
+
+"Close vim when only nerdtree is left"
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
