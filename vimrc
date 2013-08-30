@@ -31,13 +31,14 @@ execute pathogen#infect()
 "Command-T stuff"
 "Toggle command-t"
 map ,t :CommandT<CR>
+map ,b :CommandTBuffer<CR>
 
 "NERDTree stuff"
 "Automatically load nerdtree when we open vim"
 autocmd vimenter * if !argc() | NERDTree | endif
 
 "Toggle nerdtree with keypress"
-map <C-n> :NERDTreeToggle<CR>
+map ,n :NERDTreeToggle<CR>
 
 "Close vim when only nerdtree is left"
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
