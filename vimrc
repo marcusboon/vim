@@ -9,15 +9,13 @@
 :set sta
 :set sts=2
 :set sr
-:set et
-:set si
 :set gfn=Monaco\ Arial\ Monospaced\ 9
 :set lsp=1
-:set ghr=160
+:set ghr=160                                        "GUI headroom"
 :set number                                         "Always show line numbers"
 :syntax on                                          "Syntax highlighting"
-:set t_Co=256
-:colorscheme wombat256mod
+:set t_Co=256                                       "Enable 256 colours in vim"
+:colorscheme wombat256mod                           "Enable the wombat theme"
 :set expandtab                                      "Expand tabs to spaces"
 :set tabstop=4                                      "Set tab width to 4 spaces"
 :set shiftwidth=4                                   "Normal mode indentation commands use 4 spaces"
@@ -29,7 +27,7 @@
 :set makeprg=php\ -l\ %
 :set errorformat=%m\ in\ %f\ on\ line\ %l
 :set tags+=tags;
-:match Error /\t\|\s\+$/
+:match Error /\t\|\s\+$/                            "Show trailing whitespace as ugly red blocks"
 
 "Keyboard shortcuts"
 :let mapleader = ','
