@@ -20,17 +20,21 @@ Config files and extensions for vim to make it more awesome!
 
 I use pathogen to manage the other plugins and use git to handle updating them
 
-* If you have a current vim setup I suggest backing it up
+If you have a current vim setup I suggest backing it up
+
     mv .vimrc .vimrc.bak
     mv .vim .vim.bak
 
-* Then clone the repo
+Then clone the repo
+
     git clone https://github.com/marcusboon/vim.git .vim
 
-* Then initialise and update the submodules
+Then initialise and update the submodules
+
     cd .vim
     git submodule init
     git submodule update
 
-* Finally you can use my vimrc
+Finally you can use my vimrc
+
     ln -s .vim/vimrc .vimrc
