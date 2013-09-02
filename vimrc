@@ -28,6 +28,7 @@
 :set errorformat=%m\ in\ %f\ on\ line\ %l
 :set tags+=tags;
 :match Error /\t\|\s\+$/                            "Show trailing whitespace as ugly red blocks"
+:set backspace=indent,eol,start                     "Fix this weird backspace issue deleting lines"
 
 "Keyboard shortcuts"
 :let mapleader = ','
