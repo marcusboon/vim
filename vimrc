@@ -41,7 +41,7 @@
 
 "NERDTree stuff"
 "Automatically load nerdtree when we open vim"
-:autocmd vimenter * if !argc() | NERDTree | endif
+":autocmd vimenter * if !argc() | NERDTree | endif
 
 "Toggle nerdtree with keypress"
 :map <leader>n :NERDTreeToggle<CR>

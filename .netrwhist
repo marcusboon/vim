@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/marcus/workspace/toll/lib'
-let g:netrw_dirhist_2='/home/marcus/workspace/toll/lib/adodb'
-let g:netrw_dirhist_3='/home/marcus/workspace/toll/lib/adodb/drivers'
-let g:netrw_dirhist_4='/home/marcus/workspace/toll/lib'
-let g:netrw_dirhist_5='/home/marcus/workspace/toll/lib/adodb'
-let g:netrw_dirhist_6='/home/marcus/workspace/toll/lib/adodb/drivers'
-let g:netrw_dirhist_7='/home/marcus/workspace/e-oz/enrol/totara_program'
-let g:netrw_dirhist_8='/home/marcus/workspace/uocdse/blocks/dashboard_dse'
-let g:netrw_dirhist_9='/home/marcus/workspace/mahara/debian'
+let g:netrw_dirhist_cnt =0
