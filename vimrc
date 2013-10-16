@@ -60,3 +60,5 @@
 :map <leader>g :execute('!php ~/.vim/plugin/gs.php % ' . line('.'))<cr>
 
 :nmap <leader><space> :call whitespace#strip_trailing()<CR>
+
+let g:syntastic_php_phpcs_args='--report=csv --standard=~/.vim/codechecker/moodle/'
