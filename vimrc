@@ -61,4 +61,10 @@
 
 :nmap <leader><space> :call whitespace#strip_trailing()<CR>
 
-":let g:syntastic_php_phpcs_args='--report=csv --standard=~/.vim/codechecker/moodle/'
+:let g:syntastic_php_phpcs_args='--report=csv --standard=~/.vim/codechecker/moodle/'
+
+" Vdebug stuff
+let g:vdebug_options = {
+\ 'server': '0.0.0.0',
+\ 'port': '9000'
+\}
