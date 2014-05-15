@@ -32,7 +32,7 @@
 
 "Statusline setup
 :set statusline=%{fugitive#statusline()}            "Current git branch"
-:set statusline+=\ %F                                 "Full filepath"
+:set statusline+=%F                                 "Full filepath"
 :set statusline+=\ [%{strlen(&fenc)?&fenc:'none'},  "File encoding"
 :set statusline+=%{&ff}]                            "File format"
 :set statusline+=%h                                 "Help file flag"
