@@ -29,8 +29,20 @@
 :set tags+=tags;
 :match Error /\t\|\s\+$/                            "Show trailing whitespace as ugly red blocks"
 :set backspace=indent,eol,start                     "Fix this weird backspace issue deleting lines"
-:set statusline=%{fugitive#statusline()}
-:set statusline+=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
+
+"Statusline setup
+:set statusline=%{fugitive#statusline()}            "Current git branch"
+:set statusline+=\ %F                                 "Full filepath"
+:set statusline+=\ [%{strlen(&fenc)?&fenc:'none'},  "File encoding"
+:set statusline+=%{&ff}]                            "File format"
+:set statusline+=%h                                 "Help file flag"
+:set statusline+=%m                                 "Modified flag"
+:set statusline+=%r                                 "Read only flag"
+:set statusline+=%y                                 "Filetype"
+:set statusline+=%=                                 "Left/right separator"
+:set statusline+=%c,                                "Cursor column"
+:set statusline+=%l/%L                              "Cursor line/total lines"
+:set statusline+=\ %P                               "Percent through file"
 
 "Keyboard shortcuts"
 :let mapleader = ','
