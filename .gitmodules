@@ -10,3 +10,6 @@
 [submodule "bundle/vdebug"]
     path = bundle/vdebug
     url = https://github.com/joonty/vdebug.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git

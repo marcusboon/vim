@@ -29,6 +29,8 @@
 :set tags+=tags;
 :match Error /\t\|\s\+$/                            "Show trailing whitespace as ugly red blocks"
 :set backspace=indent,eol,start                     "Fix this weird backspace issue deleting lines"
+:set statusline=%{fugitive#statusline()}
+:set statusline+=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 
 "Keyboard shortcuts"
 :let mapleader = ','
