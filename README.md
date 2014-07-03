@@ -48,8 +48,6 @@ Then initialise and update the submodules
     git submodule init
     git submodule update
 
-Then you might have to follow install instructions, especially for [Command-T](https://github.com/wincent/Command-T)
-
 Finally, you can use my vimrc
 
     ln -s .vim/vimrc .vimrc
