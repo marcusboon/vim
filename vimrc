@@ -50,10 +50,11 @@ set statusline+=\ %P                               "Percent through file"
 let mapleader = ','
 
 "Code folding"
-set foldmethod=indent
+let php_folding=1
+set foldmethod=syntax
 set foldlevel=99
-
-map <leader>o :za<CR>
+set foldcolumn=4
+map <leader>f za<CR>
 
 "CTRL-P stuff"
 "Toggle ctrl-p"

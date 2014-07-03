@@ -18,6 +18,7 @@ Config files and extensions for vim to make it more awesome!
 * `,l` brings up [Tagbar](https://github.com/majutsushi/tagbar)
     - Then 'p' jumps to the definition
 * `Ctrl]` jump to definition using ctags
+* `,f` Fold current function
 * `,[space]` strips trailing whitespace
 * Debugging keys
     - `F5` Make Vim try and connect to the debugger
