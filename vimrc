@@ -77,15 +77,13 @@ let g:NERDTreeDirArrows=0
 "For easier buffers, this maps F5 to show buffers"
 nnoremap ` :buffers<CR>:buffer<Space>
 
-"For a more awesome git blame"
-"Type gs to show this"
-map <leader>g :execute('!php ~/.vim/plugin/gs.php % ' . line('.'))<cr>
-
+"Strip extra whitespace"
 nmap <leader><space> :call whitespace#strip_trailing()<CR>
 
+"Setup syntastic code checker"
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 
-" Vdebug stuff
+"Vdebug stuff"
 let g:vdebug_options = {
 \ 'server': '0.0.0.0',
 \ 'port': '9000'
