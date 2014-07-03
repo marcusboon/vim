@@ -93,7 +93,7 @@ map <c-b> :Breakpoint<CR>
 "Autocompletion"
 filetype plugin on
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
-let g:SuperTabDefaultCompletionType = ""
+let g:SuperTabDefaultCompletionType = 'context'
 
 "Tagbar"
 let g:tagbar_usearrows = 1
