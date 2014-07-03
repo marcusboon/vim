@@ -92,7 +92,7 @@ let g:vdebug_options = {
 "Autocompletion"
 filetype plugin on
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
-let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabDefaultCompletionType = ""
 
 "Tagbar"
 let g:tagbar_usearrows = 1
