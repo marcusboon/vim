@@ -4,6 +4,8 @@
 "Use pathogen to manage plugins"
 :execute pathogen#infect()
 
+filetype plugin indent on
+
 :set ts=2
 :set sw=2
 :set sta
