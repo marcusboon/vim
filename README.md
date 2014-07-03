@@ -9,6 +9,8 @@ Config files and extensions for vim to make it more awesome!
 * [Ctrl-P](https://github.com/kien/ctrlp.vim), a project file filter for easily opening specific files
 * [Fugitive](https://github.com/tpope/vim-fugitive), Awesome git integration for VIM
 * [Tagbar](https://github.com/majutsushi/tagbar), plugin for browsing the tags of source code files. It provides a sidebar that displays the ctags-generated tags of the current file, ordered by their scope.
+* [DelimitMate](https://github.com/Raimondi/delimiteMate), plugin that provides automatic closing of quotes, parenthesis, brackets, etc
+* [SuperTab](https://github.com/ervandew/supertab.git), tab completion, nuff said
 
 ### vim key bindings
 

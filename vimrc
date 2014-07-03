@@ -21,7 +21,7 @@ set shiftwidth=4                                    "Normal mode indentation com
 set laststatus=2                                    "Always show status line"
 set autoindent                                      "Automatically indent text"
 set smartindent
-set paste
+"set paste                                          "Conflicts with supertab and delimitMate"
 set ruler                                           "Always show where you are"
 set makeprg=php\ -l\ %
 set errorformat=%m\ in\ %f\ on\ line\ %l
@@ -93,8 +93,7 @@ map <c-b> :Breakpoint<CR>
 "Autocompletion"
 filetype plugin on
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
-"Set it so that vims popup menu does not select the first completion item"
-set completeopt=longest,menuone
+let g:SuperTabDefaultCompletionType = "context"
 
 "Tagbar"
 let g:tagbar_usearrows=1
