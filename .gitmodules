@@ -11,11 +11,11 @@
     path = bundle/vdebug
     url = https://github.com/joonty/vdebug.git
 [submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
+    path = bundle/vim-fugitive
+    url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = https://github.com/ervandew/supertab.git
+    path = bundle/supertab
+    url = https://github.com/ervandew/supertab.git
 [submodule "bundle/delimitmate"]
-	path = bundle/delimitmate
-	url = git://github.com/Raimondi/delimitMate.git
+    path = bundle/delimitmate
+    url = git://github.com/Raimondi/delimitMate.git
