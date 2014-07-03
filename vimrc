@@ -55,11 +55,10 @@ set foldlevel=99
 
 map <leader>o :za<CR>
 
-"Command-T stuff"
-"Toggle command-t"
-map <leader>t :CommandT<CR>
-map <leader>b :CommandTBuffer<CR>
-map <leader>j :CommandTJump<CR>
+"CTRL-P stuff"
+"Toggle ctrl-p"
+map <leader>p :CtrlP<CR>
+map <leader>b :CtrlPBuffer<CR>
 
 "NERDTree stuff"
 "Automatically load nerdtree when we open vim"
