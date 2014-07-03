@@ -89,3 +89,8 @@ let g:vdebug_options = {
 "Autocompletion"
 filetype plugin on
 au FileType php set omnifunc=phpcomplete#CompletePHP
+:let g:SuperTabDefaultCompletionType = "context"
+
+"Tagbar"
+:let g:tagbar_usearrows = 1
+:nnoremap <leader>l :TagbarToggle<CR>
