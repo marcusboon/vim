@@ -18,7 +18,7 @@ set number                                         "Always show line numbers"
 syntax on                                          "Syntax highlighting"
 set t_Co=256                                       "Enable 256 colours in vim"
 colorscheme wombat256mod                           "Enable the wombat theme"
-"set expandtab                                      "Expand tabs to spaces"
+set expandtab                                      "Expand tabs to spaces"
 set tabstop=4                                      "Set tab width to 4 spaces"
 set shiftwidth=4                                   "Normal mode indentation commands use 4 spaces"
 set laststatus=2                                   "Always show status line"
@@ -83,7 +83,7 @@ map <leader>g :execute('!php ~/.vim/plugin/gs.php % ' . line('.'))<cr>
 
 nmap <leader><space> :call whitespace#strip_trailing()<CR>
 
-let g:syntastic_php_phpcs_args='--report=csv --standard=~/.vim/codechecker/moodle/'
+let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 
 " Vdebug stuff
 let g:vdebug_options = {
