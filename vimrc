@@ -53,7 +53,6 @@ let mapleader = ','
 let php_folding=1
 set foldmethod=syntax
 set foldlevel=99
-set foldcolumn=4
 map <leader>f za<CR>
 
 "CTRL-P stuff"
