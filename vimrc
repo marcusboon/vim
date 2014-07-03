@@ -6,45 +6,42 @@ call pathogen#infect()                              "Run pathogen to install plu
 call pathogen#helptags()                            "Run pathogen to generate helpfiles for plugins"
 filetype plugin indent on                           "Enable loading indent file for filetype"
 
-set ts=2
-set sw=2
-set sta
-set sts=2
+set softtabstop=2                                   "Make spaces feel like tabs (like deleting)"
 set sr
 set gfn=Monaco\ Arial\ Monospaced\ 9
 set lsp=1
-set ghr=160                                        "GUI headroom"
-set number                                         "Always show line numbers"
-syntax on                                          "Syntax highlighting"
-set t_Co=256                                       "Enable 256 colours in vim"
-colorscheme wombat256mod                           "Enable the wombat theme"
-set expandtab                                      "Expand tabs to spaces"
-set tabstop=4                                      "Set tab width to 4 spaces"
-set shiftwidth=4                                   "Normal mode indentation commands use 4 spaces"
-set laststatus=2                                   "Always show status line"
-set autoindent                                     "Automatically indent text"
+set ghr=160                                         "GUI headroom"
+set number                                          "Always show line numbers"
+syntax on                                           "Syntax highlighting"
+set t_Co=256                                        "Enable 256 colours in vim"
+colorscheme wombat256mod                            "Enable the wombat theme"
+set expandtab                                       "Expand tabs to spaces"
+set tabstop=4                                       "Set tab width to 4 spaces"
+set shiftwidth=4                                    "Normal mode indentation commands use 4 spaces"
+set laststatus=2                                    "Always show status line"
+set autoindent                                      "Automatically indent text"
 set smartindent
 set paste
-set ruler                                          "Always show where you are"
+set ruler                                           "Always show where you are"
 set makeprg=php\ -l\ %
 set errorformat=%m\ in\ %f\ on\ line\ %l
-set tags+=tags;
-match Error /\t\|\s\+$/                            "Show trailing whitespace as ugly red blocks"
-set backspace=indent,eol,start                     "Fix this weird backspace issue deleting lines"
+set tags+=tags                                      "Make use of exuberant ctags"
+match Error /\t\|\s\+$/                             "Show trailing whitespace as ugly red blocks"
+set backspace=indent,eol,start                      "Fix this weird backspace issue deleting lines"
 
 "Statusline setup"
-set statusline=%{fugitive#statusline()}            "Current git branch"
-set statusline+=%f                                 "Full filepath"
-set statusline+=\ [%{strlen(&fenc)?&fenc:'none'},  "File encoding"
-set statusline+=%{&ff}]                            "File format"
-set statusline+=%h                                 "Help file flag"
-set statusline+=%m                                 "Modified flag"
-set statusline+=%r                                 "Read only flag"
-set statusline+=%y                                 "Filetype"
-set statusline+=%=                                 "Left/right separator"
-set statusline+=%c,                                "Cursor column"
-set statusline+=%l/%L                              "Cursor line/total lines"
-set statusline+=\ %P                               "Percent through file"
+set statusline=%{fugitive#statusline()}             "Current git branch"
+set statusline+=%f                                  "Full filepath"
+set statusline+=\ [%{strlen(&fenc)?&fenc:'none'},   "File encoding"
+set statusline+=%{&ff}]                             "File format"
+set statusline+=%h                                  "Help file flag"
+set statusline+=%m                                  "Modified flag"
+set statusline+=%r                                  "Read only flag"
+set statusline+=%y                                  "Filetype"
+set statusline+=%=                                  "Left/right separator"
+set statusline+=%c,                                 "Cursor column"
+set statusline+=%l/%L                               "Cursor line/total lines"
+set statusline+=\ %P                                "Percent through file"
 
 "Keyboard shortcuts"
 let mapleader = ','
