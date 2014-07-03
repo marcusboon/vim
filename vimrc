@@ -2,7 +2,8 @@
 :set nocompatible
 
 "Use pathogen to manage plugins"
-:execute pathogen#infect()
+:call pathogen#infect()
+:call pathogen#helptags()
 
 filetype plugin indent on
 
