@@ -77,10 +77,10 @@ nnoremap ` :buffers<CR>:buffer<Space>
 nmap <leader><space> :call whitespace#strip_trailing()<CR>
 
 "Setup syntastic code checker"
-let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
-let g:syntastic_check_on_open = 1
-let g:syntastic_enable_signs = 1
-let g:syntastic_enable_balloons = 1
+let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
+let g:syntastic_check_on_open=1
+let g:syntastic_enable_signs=1
+let g:syntastic_enable_balloons=1
 
 "Vdebug stuff"
 let g:vdebug_options = {
@@ -97,5 +97,5 @@ autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 set completeopt=longest,menuone
 
 "Tagbar"
-let g:tagbar_usearrows = 1
+let g:tagbar_usearrows=1
 nnoremap <leader>l :TagbarToggle<CR>
