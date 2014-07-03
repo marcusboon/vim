@@ -6,7 +6,7 @@ call pathogen#infect()                              "Run pathogen to install plu
 call pathogen#helptags()                            "Run pathogen to generate helpfiles for plugins"
 filetype plugin indent on                           "Enable loading indent file for filetype"
 
-set softtabstop=2                                   "Make spaces feel like tabs (like deleting)"
+set softtabstop=4                                   "Make spaces feel like tabs (like deleting)"
 set sr
 set gfn=Monaco\ Arial\ Monospaced\ 9
 set lsp=1
