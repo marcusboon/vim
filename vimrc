@@ -81,12 +81,17 @@ nmap <leader><space> :call whitespace#strip_trailing()<CR>
 
 "Setup syntastic code checker"
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
+let g:syntastic_check_on_open = 1
+let g:syntastic_enable_signs = 1
+let g:syntastic_enable_balloons = 1
 
 "Vdebug stuff"
 let g:vdebug_options = {
 \ 'server': '0.0.0.0',
-\ 'port': '9000'
+\ 'port': '9000',
+\ 'on_close': 'detach'
 \}
+map <c-b> :Breakpoint<CR>
 
 "Autocompletion"
 filetype plugin on

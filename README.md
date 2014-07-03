@@ -17,8 +17,14 @@ Config files and extensions for vim to make it more awesome!
 * `,b` restricts Ctrl-P to open buffers
 * `,l` brings up [Tagbar](https://github.com/majutsushi/tagbar)
     - Then 'p' jumps to the definition
-* `,[space]` strips trailing whitespace
 * `Ctrl]` jump to definition using ctags
+* `,[space]` strips trailing whitespace
+* Debugging keys
+    - `F5` Make Vim try and connect to the debugger
+    - `F3` Step through the functions
+    - `F2` Step into a function
+    - `F4` Step out of a function
+    - `CtrlB` Set a breakpoint for VDebug
 
 ## Installation
 
