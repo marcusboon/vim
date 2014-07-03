@@ -16,7 +16,7 @@ Config files and extensions for vim to make it more awesome!
 * `,t` brings up [Command-T](https://github.com/wincent/Command-T)
 * `,b` restricts Command-T to open buffers
 * `,l` brings up [Tagbar](https://github.com/majutsushi/tagbar)
-    Then 'p' jumps to the definition
+    - Then 'p' jumps to the definition
 * `,[space]` strips trailing whitespace
 * `Ctrl]` jump to definition using ctags
 
