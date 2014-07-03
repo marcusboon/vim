@@ -93,7 +93,8 @@ map <c-b> :Breakpoint<CR>
 "Autocompletion"
 filetype plugin on
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
-let g:SuperTabDefaultCompletionType = 'context'
+"Set it so that vims popup menu does not select the first completion item"
+set completeopt=longest,menuone
 
 "Tagbar"
 let g:tagbar_usearrows = 1
