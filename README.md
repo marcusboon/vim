@@ -58,11 +58,10 @@ Then clone the repo
 
     git clone https://github.com/marcusboon/vim.git .vim
 
-Then initialise and update the submodules
+Then initialise and update all the things!
 
     cd .vim
-    git submodule init
-    git submodule update
+    ./updatemodule
 
 Next we'll have to install the code standards sniffer thingo
 
