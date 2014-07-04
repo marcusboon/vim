@@ -29,6 +29,17 @@ Config files and extensions for vim to make it more awesome!
     - `F4` Step out of a function
     - `CtrlB` Set a breakpoint for VDebug
 
+### Git integration with fugitive
+
+* Resolving 3-way merge conflicts with fugitive tutorial [here] (http://vimcasts.org/episodes/fugitive-vim-resolving-merge-conflicts-with-vimdiff/)
+    - Open up the conflicted file and run :Gdiff which will open up two extra buffers with the target (i.e. the branch you're currently on) on the left and merge (i.e. the branch you're merging in) on the right
+    - Fugitive usually has a consistent naming structure for buffspec for these two, so the target would be //2 and the merge would be //3
+    - `]c` jumps to the next merge conflict marker
+    - `[c` jumps to the previous merge conflict marker
+    - Use :diffget //2 to get changes from the target or :diffget //3 to get changes from the merge
+    - Once we're happy, use :only to keep the current window and close the other buffers
+    - Use :Gwrite to stage changes :Gcommit to commit them and :Gpush <remote> <branch> to push them
+
 ## Installation
 
 I use pathogen to manage the other plugins and use git to handle updating them
