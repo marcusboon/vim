@@ -104,3 +104,6 @@ nnoremap <leader>l :TagbarToggle<CR>
 
 "Gundo stuff"
 nnoremap <leader>u :GundoToggle<CR>
+
+"PHPUnit stuff"
+let g:phpunit_cmd = "vendor/bin/phpunit"

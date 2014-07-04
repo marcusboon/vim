@@ -13,6 +13,7 @@ Config files and extensions for vim to make it more awesome!
 * [SuperTab](https://github.com/ervandew/supertab.git), tab completion, nuff said
 * [Gundo](http://sjl.bitbucket.org/gundo.vim/), Graphical undo for vim!
 * [Snipmate](https://github.com/garbas/vim-snipmate), quickly paste snippets of code
+* [PHPUnitQf](https://github.com/joonty/vim-phpunitqf), PHP Unit integration
 
 ### vim key bindings
 
