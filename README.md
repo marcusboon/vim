@@ -63,6 +63,18 @@ Then initialise and update the submodules
     git submodule init
     git submodule update
 
+Next we'll have to install the code standards sniffer thingo
+
+    sudo pear install PHP_CodeSniffer
+
+Find out where pear installs stuff to
+
+    pear config-get php_dir
+
+Then add the moodle coding standards sniffers
+
+    sudo ln -sv ~/.vim/codechecker/moodle/ /usr/share/php/PHP/CodeSniffer/Standards/moodle
+
 Finally, you can use my vimrc
 
     ln -s .vim/vimrc .vimrc
