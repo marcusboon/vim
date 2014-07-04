@@ -11,6 +11,7 @@ Config files and extensions for vim to make it more awesome!
 * [Tagbar](https://github.com/majutsushi/tagbar), plugin for browsing the tags of source code files. It provides a sidebar that displays the ctags-generated tags of the current file, ordered by their scope.
 * [DelimitMate](https://github.com/Raimondi/delimiteMate), plugin that provides automatic closing of quotes, parenthesis, brackets, etc
 * [SuperTab](https://github.com/ervandew/supertab.git), tab completion, nuff said
+* [Gundo](http://sjl.bitbucket.org/gundo.vim/), Graphical undo for vim!
 
 ### vim key bindings
 
@@ -19,6 +20,7 @@ Config files and extensions for vim to make it more awesome!
 * `,b` restricts Ctrl-P to open buffers
 * `,l` brings up [Tagbar](https://github.com/majutsushi/tagbar)
     - Then 'p' jumps to the definition
+* `,u` brings up [Gundo](http://sjl.bitbucket.org/gundo.vim/)
 * `Ctrl]` jump to definition using ctags
 * `,f` Fold current function
 * `,[space]` strips trailing whitespace
