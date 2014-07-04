@@ -37,6 +37,7 @@ Config files and extensions for vim to make it more awesome!
     - `]c` jumps to the next merge conflict marker
     - `[c` jumps to the previous merge conflict marker
     - Use **:diffget //2** to get changes from the target or **:diffget //3** to get changes from the merge
+    - Use **:diffupdate** to realign the diff markers
     - Once we're happy, use **:only** to keep the current window and close the other buffers
     - Use **:Gwrite** to stage changes **:Gcommit** to commit them and **:Gpush <remote> <branch>** to push them
 
