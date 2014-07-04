@@ -28,6 +28,8 @@ set errorformat=%m\ in\ %f\ on\ line\ %l
 set tags+=tags                                      "Make use of exuberant ctags"
 match Error /\t\|\s\+$/                             "Show trailing whitespace as ugly red blocks"
 set backspace=indent,eol,start                      "Fix this weird backspace issue deleting lines"
+set wildmenu                                        "Enable a menu at the bottom of the window"
+set wildmode=list:longest,full                      "Something to do with completion in command line"
 
 "Statusline setup"
 set statusline=%{fugitive#statusline()}             "Current git branch"
