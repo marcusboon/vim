@@ -12,6 +12,7 @@ Config files and extensions for vim to make it more awesome!
 * [DelimitMate](https://github.com/Raimondi/delimiteMate), plugin that provides automatic closing of quotes, parenthesis, brackets, etc
 * [SuperTab](https://github.com/ervandew/supertab.git), tab completion, nuff said
 * [Gundo](http://sjl.bitbucket.org/gundo.vim/), Graphical undo for vim!
+* [Snipmate](https://github.com/msanders/snipmate.vim), quickly paste snippets of code
 
 ### vim key bindings
 
