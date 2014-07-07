@@ -109,4 +109,4 @@ nnoremap <leader>u :GundoToggle<CR>
 let g:phpunit_cmd = "vendor/bin/phpunit"
 
 "Update tags"
-nnoremap <leader>t :!./~/.vim/ctaggify
+nnoremap <leader>t :silent execute "!~/.vim/ctaggify &>/dev/null &"\|redraw!<CR>
