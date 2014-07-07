@@ -23,7 +23,7 @@ Config files and extensions for vim to make it more awesome!
 * `,l` brings up [Tagbar](https://github.com/majutsushi/tagbar)
     - Then 'p' jumps to the definition
 * `,u` brings up [Gundo](http://sjl.bitbucket.org/gundo.vim/)
-* `,]` jump to definition using ctags and you get a menu to pick which definition you want if there are multiple matches
+* `Ctrl]` jump to definition using ctags and you get a menu to pick which definition you want if there are multiple matches
 * `,f` Fold current function
 * `,[space]` strips trailing whitespace
 * `,t` Update tags file, make sure you're in the root directory of your project
