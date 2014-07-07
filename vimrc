@@ -100,6 +100,7 @@ let g:SuperTabDefaultCompletionType = "context"
 
 "Tagbar"
 let g:tagbar_usearrows=1
+let g:tagbar_autofocus=1
 nnoremap <leader>l :TagbarToggle<CR>
 
 "Gundo stuff"
