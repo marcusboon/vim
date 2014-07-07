@@ -26,6 +26,7 @@ Config files and extensions for vim to make it more awesome!
 * `Ctrl]` jump to definition using ctags
 * `,f` Fold current function
 * `,[space]` strips trailing whitespace
+* `,t` Update tags file, make sure you're in the root directory of your project
 * Debugging keys
     - `F5` Make Vim try and connect to the debugger
     - `F3` Step through the functions

@@ -25,7 +25,7 @@ set smartindent
 set ruler                                           "Always show where you are"
 set makeprg=php\ -l\ %
 set errorformat=%m\ in\ %f\ on\ line\ %l
-set tags+=tags                                      "Make use of exuberant ctags"
+set tags=./tags;/                                   "Make use of exuberant ctags"
 match Error /\t\|\s\+$/                             "Show trailing whitespace as ugly red blocks"
 set backspace=indent,eol,start                      "Fix this weird backspace issue deleting lines"
 set wildmenu                                        "Enable a menu at the bottom of the window"
@@ -72,7 +72,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 "Fix weird chars"
 let g:NERDTreeDirArrows=0
 
-"For easier buffers, this maps F5 to show buffers"
+"For easier buffers, this maps ` to show buffers"
 nnoremap ` :buffers<CR>:buffer<Space>
 
 "Strip extra whitespace"
@@ -107,3 +107,6 @@ nnoremap <leader>u :GundoToggle<CR>
 
 "PHPUnit stuff"
 let g:phpunit_cmd = "vendor/bin/phpunit"
+
+"Update tags"
+nnoremap <leader>t :!./~/.vim/ctaggify
