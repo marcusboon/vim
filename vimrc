@@ -111,3 +111,6 @@ let g:phpunit_cmd = "vendor/bin/phpunit"
 
 "Update tags"
 nnoremap <leader>t :silent execute "!~/.vim/ctaggify &>/dev/null &"\|redraw!<CR>
+
+"List all matching tags, their location and type"
+nnoremap <leader>] g<C-]><CR>
