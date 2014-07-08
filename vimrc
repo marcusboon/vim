@@ -61,7 +61,7 @@ map <leader>b :CtrlPBuffer<CR>
 
 "NERDTree stuff"
 "Automatically load nerdtree when we open vim"
-autocmd vimenter * if !argc() | NERDTree | endif
+"autocmd vimenter * if !argc() | NERDTree | endif
 
 "Toggle nerdtree with keypress"
 map <leader>n :NERDTreeToggle<CR>
@@ -113,4 +113,4 @@ let g:phpunit_cmd = "vendor/bin/phpunit"
 nnoremap <leader>t :silent execute "!~/.vim/ctaggify &>/dev/null &"\|redraw!<CR>
 
 "List all matching tags, their location and type"
-nnoremap <C-]> g<C-]><CR>
+nnoremap <C-]> :tselect <C-R><C-W><CR>
