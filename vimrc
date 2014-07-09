@@ -62,13 +62,10 @@ map <leader>b :CtrlPBuffer<CR>
 "NERDTree stuff"
 "Automatically load nerdtree when we open vim"
 "autocmd vimenter * if !argc() | NERDTree | endif
-
 "Toggle nerdtree with keypress"
 map <leader>n :NERDTreeToggle<CR>
-
 "Close vim when only nerdtree is left"
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-
 "Fix weird chars"
 let g:NERDTreeDirArrows=0
 
@@ -80,7 +77,7 @@ nmap <leader><space> :call whitespace#strip_trailing()<CR>
 
 "Setup syntastic code checker"
 let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
-let g:syntastic_check_on_open=1
+"let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=1
 let g:syntastic_enable_balloons=1
 let g:syntastic_php_phpcs_args="--standard=moodle --extensions=php"
@@ -113,4 +110,4 @@ let g:phpunit_cmd = "vendor/bin/phpunit"
 nnoremap <leader>t :silent execute "!~/.vim/ctaggify &>/dev/null &"\|redraw!<CR>
 
 "List all matching tags, their location and type"
-nnoremap <C-]> :tselect <C-R><C-W><CR>
+"nnoremap <C-]> :tselect <C-R><C-W><CR>
