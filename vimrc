@@ -112,3 +112,10 @@ nnoremap <leader>t :silent execute "!~/.vim/ctaggify &>/dev/null &"\|redraw!<CR>
 
 "List all matching tags, their location and type"
 "nnoremap <C-]> :tselect <C-R><C-W><CR>
+
+"Change settings based on path.
+function! SetDrupal()
+    setlocal tabstop=2 shiftwidth=2 softtabstop=2
+    let g:syntastic_php_phpcs_args="--standard=drupalcatalyst --extensions=php"
+endfunction
+au BufNewFile,BufRead **/drupal* call SetDrupal()

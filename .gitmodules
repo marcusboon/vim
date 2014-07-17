@@ -40,3 +40,6 @@
 [submodule "bundle/vim-phpunitqf"]
 	path = bundle/vim-phpunitqf
 	url = https://github.com/joonty/vim-phpunitqf.git
+[submodule "catalyst_drupalcs"]
+	path = catalyst_drupalcs
+	url = git+ssh://git.catalyst.net.nz/git/private/catalyst_drupalcs.git
