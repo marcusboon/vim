@@ -120,4 +120,5 @@ function! SetDrupal()
 endfunction
 au BufNewFile,BufRead **/drupal* call SetDrupal()
 
-au CursorMoved * silent! exe printf('match IncSearch /\<%s\>/', expand('<cword>'))
+" Change the highlight colour
+let g:vawahl="ctermbg=239 guibg=#4e4e4e gui=bold"
