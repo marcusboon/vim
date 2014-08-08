@@ -119,3 +119,5 @@ function! SetDrupal()
     let g:syntastic_php_phpcs_args="--standard=drupalcatalyst --extensions=php"
 endfunction
 au BufNewFile,BufRead **/drupal* call SetDrupal()
+
+au CursorMoved * silent! exe printf('match IncSearch /\<%s\>/', expand('<cword>'))
