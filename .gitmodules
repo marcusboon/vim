@@ -40,3 +40,6 @@
 [submodule "bundle/vim-phpunitqf"]
 	path = bundle/vim-phpunitqf
 	url = https://github.com/joonty/vim-phpunitqf.git
+[submodule "bundle/vawa"]
+	path = bundle/vawa
+	url = https://github.com/vim-scripts/vawa.vim
