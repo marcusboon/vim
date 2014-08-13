@@ -81,6 +81,7 @@ let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
 let g:syntastic_enable_signs=1
 let g:syntastic_enable_balloons=1
 let g:syntastic_php_phpcs_args="--standard=moodle --extensions=php"
+let g:syntastic_aggregate_errors=1
 
 "Vdebug stuff"
 let g:vdebug_options = {
