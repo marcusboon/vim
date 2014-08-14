@@ -124,6 +124,7 @@ endfunction
 au BufNewFile,BufRead **/drupal* call SetDrupal()
 
 function! SetCommon()
+    setlocal tabstop=2 shiftwidth=2 softtabstop=2
     let g:syntastic_php_phpcs_args="--standard=Zend --extensions=php"
 endfunction
 au BufNewFile,BufRead **/common* call SetCommon()
