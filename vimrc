@@ -77,11 +77,13 @@ nmap <leader><space> :call whitespace#strip_trailing()<CR>
 
 "Setup syntastic code checker"
 let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
-"let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=1
 let g:syntastic_enable_balloons=1
 let g:syntastic_php_phpcs_args="--standard=moodle --extensions=php"
 let g:syntastic_aggregate_errors=1
+let g:syntastic_always_populate_loc_list=1
+let g:syntastic_auto_jump=2
+let g:syntastic_auto_loc_list=1
 
 "Vdebug stuff"
 let g:vdebug_options = {
@@ -120,6 +122,11 @@ function! SetDrupal()
     let g:syntastic_php_phpcs_args="--standard=drupalcatalyst --extensions=php"
 endfunction
 au BufNewFile,BufRead **/drupal* call SetDrupal()
+
+function! SetCommon()
+    let g:syntastic_php_phpcs_args="--standard=Zend --extensions=php"
+endfunction
+au BufNewFile,BufRead **/common* call SetDrupal()
 
 " Change the highlight colour
 let g:vawahl="ctermbg=239 guibg=#4e4e4e gui=bold"
