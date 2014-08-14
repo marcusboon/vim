@@ -8,12 +8,8 @@
         We have to modify this slightly because... Moodle
     </description>
 
-    <!-- Import the entire clean code rule set -->
-    <rule ref="rulesets/cleancode.xml" />
     <!-- Import the entire code size rule set -->
-    <rule ref="rulesets/codezise.xml" />
-    <!-- Import the entire controversial rule set -->
-    <rule ref="rulesets/controversial.xml" />
+    <rule ref="rulesets/codesize.xml" />
     <!-- Import the entire design rule set -->
     <rule ref="rulesets/design.xml" />
     <!-- Import the entire naming rule set -->

@@ -14,32 +14,32 @@
     path = bundle/delimitmate
     url = git://github.com/Raimondi/delimitMate.git
 [submodule "bundle/tagbar"]
-	path = bundle/tagbar
-	url = git://github.com/majutsushi/tagbar.git
+    path = bundle/tagbar
+    url = git://github.com/majutsushi/tagbar.git
 [submodule "bundle/ctrlp"]
-	path = bundle/ctrlp
-	url = https://github.com/kien/ctrlp.vim.git
+    path = bundle/ctrlp
+    url = https://github.com/kien/ctrlp.vim.git
 [submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = https://github.com/ervandew/supertab.git
+    path = bundle/supertab
+    url = https://github.com/ervandew/supertab.git
 [submodule "bundle/gundo"]
-	path = bundle/gundo
-	url = https://github.com/sjl/gundo.vim
+    path = bundle/gundo
+    url = https://github.com/sjl/gundo.vim
 [submodule "bundle/tlib"]
-	path = bundle/tlib
-	url = https://github.com/tomtom/tlib_vim.git
+    path = bundle/tlib
+    url = https://github.com/tomtom/tlib_vim.git
 [submodule "bundle/mwutils"]
-	path = bundle/mwutils
-	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+    path = bundle/mwutils
+    url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "bundle/vim-snipmate"]
-	path = bundle/vim-snipmate
-	url = https://github.com/garbas/vim-snipmate.git
+    path = bundle/vim-snipmate
+    url = https://github.com/garbas/vim-snipmate.git
 [submodule "bundle/vim-snippets"]
-	path = bundle/vim-snippets
-	url = https://github.com/honza/vim-snippets.git
+    path = bundle/vim-snippets
+    url = https://github.com/honza/vim-snippets.git
 [submodule "bundle/vim-phpunitqf"]
-	path = bundle/vim-phpunitqf
-	url = https://github.com/joonty/vim-phpunitqf.git
+    path = bundle/vim-phpunitqf
+    url = https://github.com/joonty/vim-phpunitqf.git
 [submodule "bundle/vawa"]
-	path = bundle/vawa
-	url = https://github.com/vim-scripts/vawa.vim
+    path = bundle/vawa
+    url = https://github.com/vim-scripts/vawa.vim

@@ -76,9 +76,10 @@ nnoremap ` :buffers<CR>:buffer<Space>
 nmap <leader><space> :call whitespace#strip_trailing()<CR>
 
 "Setup syntastic code checker"
-let g:syntastic_php_checkers=['php', 'phpcs']
+let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
 let g:syntastic_enable_signs=1
 let g:syntastic_php_phpcs_args="--standard=moodle --extensions=php"
+let g:syntastic_php_phpmd_ruleset = "~/.vim/phpmdruleset.xml"
 let g:syntastic_aggregate_errors=1
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_auto_jump=2
