@@ -125,7 +125,7 @@ au BufNewFile,BufRead **/drupal* call SetDrupal()
 function! SetCommon()
     let g:syntastic_php_phpcs_args="--standard=Zend --extensions=php"
 endfunction
-au BufNewFile,BufRead **/common* call SetDrupal()
+au BufNewFile,BufRead **/common* call SetCommon()
 
 " Change the highlight colour
 let g:vawahl="ctermbg=239 guibg=#4e4e4e gui=bold"
