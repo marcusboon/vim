@@ -130,3 +130,9 @@ au BufNewFile,BufRead **/common* call SetCommon()
 
 " Change the highlight colour
 let g:vawahl="ctermbg=239 guibg=#4e4e4e gui=bold"
+
+"Close the location list if its the only thing open
+aug QFClose
+    au!
+    au WinEnter * if winnr('$') == 1 && getbufvar(winbufnr(winnr()), "&buftype") == "quickfix"|q|endif
+aug END
