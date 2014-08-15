@@ -137,3 +137,6 @@ aug QFClose
     au!
     au WinEnter * if winnr('$') == 1 && getbufvar(winbufnr(winnr()), "&buftype") == "quickfix"|q|endif
 aug END
+
+"Setup for snipmate
+let g:snips_author = 'Marcus Boon<marcus@catalyst-au.net>'
