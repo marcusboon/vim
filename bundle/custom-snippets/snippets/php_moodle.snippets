@@ -23,5 +23,21 @@ snippet php
 	 * @author      ${0:`g:snips_author`}
 	 */
 
+# The moodle internal definition thing
 snippet mdef
 	defined('MOODLE_INTERNAL') || die('Direct access to this script is forbidden');
+
+# class ...
+snippet class
+	/**
+	 * ${1}
+	 */
+	class ${2:`vim_snippets#Filename()`} {
+		${3}
+		/**
+		 * ${4}
+		 */
+		${5:public} function ${6:__construct}(${7:argument}) {
+			${0}
+		}
+	}

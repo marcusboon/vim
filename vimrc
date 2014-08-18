@@ -82,7 +82,6 @@ let g:syntastic_php_phpcs_args="--standard=moodle --extensions=php"
 let g:syntastic_php_phpmd_post_args = "~/.vim/phpmdruleset.xml"
 let g:syntastic_aggregate_errors=1
 let g:syntastic_always_populate_loc_list=1
-let g:syntastic_auto_jump=2
 let g:syntastic_auto_loc_list=1
 
 "Vdebug stuff"
