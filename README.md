@@ -83,6 +83,7 @@ Then install PHP Mess Detector
     && pear channel-discover pear.pdepend.org
     && pear install --alldeps phpmd/PHP_PMD
 
-Finally, you can use my vimrc
+Finally, you can use my vimrc and mysql conf
 
     ln -s .vim/vimrc .vimrc
+    ln -s .vim/my.cnf .my.cnf
