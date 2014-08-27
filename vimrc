@@ -30,6 +30,7 @@ match Error /\t\|\s\+$/                             "Show trailing whitespace as
 set backspace=indent,eol,start                      "Fix this weird backspace issue deleting lines"
 set wildmenu                                        "Enable a menu at the bottom of the window"
 set wildmode=list:longest,full                      "Something to do with completion in command line"
+set mouse=a                                         "Turn on mouse support"
 
 "Statusline setup"
 set statusline=%{fugitive#statusline()}             "Current git branch"
