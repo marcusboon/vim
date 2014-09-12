@@ -140,3 +140,6 @@ aug END
 
 "Setup for snipmate
 let g:snips_author = 'Marcus Boon<marcus@catalyst-au.net>'
+
+" Syntax for ruby files
+au FileType ruby setlocal tabstop=2 shiftwidth=2 softtabstop=2
