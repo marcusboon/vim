@@ -1,4 +1,4 @@
-# MY AWESOME VIM
+#MY AWESOME VIM
 
 Config files and extensions for vim to make it more awesome!
 
@@ -33,6 +33,7 @@ Config files and extensions for vim to make it more awesome!
     - `F2` Step into a function
     - `F4` Step out of a function
     - `CtrlB` Set a breakpoint for VDebug
+* Because mouse interactions are turned on, if you want to copy text from vim, you will have to press `Shift` and then make the selection or else it will go into Visual selection mode in VIM
 
 ### Git integration with fugitive
 
