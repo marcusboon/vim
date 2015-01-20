@@ -9,10 +9,10 @@
     url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/delimitmate"]
     path = bundle/delimitmate
-    url = git://github.com/Raimondi/delimitMate.git
+    url = https://github.com/Raimondi/delimitMate.git
 [submodule "bundle/tagbar"]
     path = bundle/tagbar
-    url = git://github.com/majutsushi/tagbar.git
+    url = https://github.com/majutsushi/tagbar.git
 [submodule "bundle/ctrlp"]
     path = bundle/ctrlp
     url = https://github.com/kien/ctrlp.vim.git
@@ -41,5 +41,5 @@
     path = bundle/vawa
     url = https://github.com/vim-scripts/vawa.vim
 [submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
+    path = bundle/syntastic
+    url = https://github.com/scrooloose/syntastic.git
