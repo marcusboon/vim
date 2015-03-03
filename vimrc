@@ -97,6 +97,8 @@ map <c-b> :Breakpoint<CR>
 filetype plugin on
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 let g:SuperTabDefaultCompletionType = "context"
+let php_sql_query=1
+let php_htmlInstrings=1
 
 "Tagbar"
 let g:tagbar_usearrows=1
