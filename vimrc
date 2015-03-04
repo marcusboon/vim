@@ -21,7 +21,6 @@ set shiftwidth=4                                    "Normal mode indentation com
 set laststatus=2                                    "Always show status line"
 set autoindent                                      "Automatically indent text"
 set smartindent
-"set paste                                          "Conflicts with supertab and delimitMate"
 set ruler                                           "Always show where you are"
 set makeprg=php\ -l\ %
 set errorformat=%m\ in\ %f\ on\ line\ %l
@@ -31,6 +30,7 @@ set backspace=indent,eol,start                      "Fix this weird backspace is
 set wildmenu                                        "Enable a menu at the bottom of the window"
 set wildmode=list:longest,full                      "Something to do with completion in command line"
 set mouse=a                                         "Turn on mouse support"
+set completeopt=longest,menuone                     "Completion menu matches longest and shows even 1"
 
 "Statusline setup"
 set statusline=%{fugitive#statusline()}             "Current git branch"
