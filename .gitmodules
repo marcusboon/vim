@@ -44,8 +44,8 @@
     path = bundle/syntastic
     url = https://github.com/scrooloose/syntastic.git
 [submodule "codechecker"]
-	path = codechecker
-	url = https://github.com/moodlehq/moodle-local_codechecker
+    path = codechecker
+    url = https://github.com/moodlehq/moodle-local_codechecker
 [submodule "bundle/phpcomplete.vim"]
-	path = bundle/phpcomplete.vim
-	url = git://github.com/shawncplus/phpcomplete.vim.git
+    path = bundle/phpcomplete.vim
+    url = https://github.com/shawncplus/phpcomplete.vim.git
