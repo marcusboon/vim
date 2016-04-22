@@ -61,12 +61,13 @@ map <leader>p :CtrlP<CR>
 map <leader>b :CtrlPBuffer<CR>
 
 "NERDTree stuff"
-"Automatically load nerdtree when we open vim"
-"autocmd vimenter * if !argc() | NERDTree | endif
+"Automatically load nerdtree when we open vim and no files are specified"
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "Toggle nerdtree with keypress"
 map <leader>n :NERDTreeToggle<CR>
 "Close vim when only nerdtree is left"
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 "Fix weird chars"
 let g:NERDTreeDirArrows=0
 
