@@ -31,6 +31,7 @@ set wildmenu                                        "Enable a menu at the bottom
 set wildmode=list:longest,full                      "Something to do with completion in command line"
 set mouse=a                                         "Turn on mouse support"
 set completeopt=longest,menuone                     "Completion menu matches longest and shows even 1"
+set encoding=utf-8                                  "Make vim use utf8"
 
 "Statusline setup"
 set statusline=%{fugitive#statusline()}             "Current git branch"
@@ -69,7 +70,8 @@ map <leader>n :NERDTreeToggle<CR>
 "Close vim when only nerdtree is left"
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 "Fix weird chars"
-let g:NERDTreeDirArrows=0
+let g:NERDTreeDirArrowExpandable="+"
+let g:NERDTreeDirArrowCollapsible="~"
 
 "For easier buffers, this maps ` to show buffers"
 nnoremap ` :buffers<CR>:buffer<Space>
