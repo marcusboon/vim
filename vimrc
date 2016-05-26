@@ -151,3 +151,7 @@ au FileType ruby setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
+
+" Jump to definition if there is only one, or else show list of definitions to
+" choose from if there are multiple.
+nnoremap <c-]> g<c-]>
