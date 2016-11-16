@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/marcus/workspace/e-oz/local/ccloner'
-let g:netrw_dirhist_2='/home/marcus/.vim'
-let g:netrw_dirhist_3='/home/marcus/workspace/vicpolice'
-let g:netrw_dirhist_4='/var/www/common-o2s/ouathemes'
-let g:netrw_dirhist_5='/Users/marcus/.ssh'
