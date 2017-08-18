@@ -1,4 +1,4 @@
-#MY AWESOME VIM
+# MY AWESOME VIM
 
 Config files and extensions for vim to make it more awesome!
 
