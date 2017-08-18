@@ -81,8 +81,8 @@ Then add the moodle and drupal coding standards sniffers
 Then install PHP Mess Detector
 
     sudo pear channel-discover pear.phpmd.org \
-    && pear channel-discover pear.pdepend.org \
-    && pear install --alldeps phpmd/PHP_PMD
+    && sudo pear channel-discover pear.pdepend.org \
+    && sudo pear install --alldeps phpmd/PHP_PMD
 
 Finally, you can use my vimrc and mysql conf
 
