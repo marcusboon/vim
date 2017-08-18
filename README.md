@@ -75,13 +75,13 @@ Find out where pear installs stuff to
 
 Then add the moodle and drupal coding standards sniffers
 
-    sudo ln -sv ~/.vim/codechecker/moodle/ /usr/share/php/PHP/CodeSniffer/Standards/moodle
-    sudo ln -sv ~/.vim/catalyst_drupalcs/coder_sniffer/ /usr/share/php/PHP/CodeSniffer/Standards/drupalcatalyst
+    sudo ln -sv ~/.vim/codechecker/moodle/ /usr/share/php/PHP/CodeSniffer/src/Standards/moodle
+    sudo ln -sv ~/.vim/catalyst_drupalcs/coder_sniffer/ /usr/share/php/PHP/CodeSniffer/src/Standards/drupalcatalyst
 
 Then install PHP Mess Detector
 
-    sudo pear channel-discover pear.phpmd.org
-    && pear channel-discover pear.pdepend.org
+    sudo pear channel-discover pear.phpmd.org \
+    && pear channel-discover pear.pdepend.org \
     && pear install --alldeps phpmd/PHP_PMD
 
 Finally, you can use my vimrc and mysql conf
