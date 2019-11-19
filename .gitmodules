@@ -46,3 +46,7 @@
 [submodule "bundle/phpcomplete.vim"]
     path = bundle/phpcomplete.vim
     url = https://github.com/shawncplus/phpcomplete.vim.git
+[submodule "PHP_CodeSniffer"]
+    path = PHP_CodeSniffer
+    url = git@github.com:squizlabs/PHP_CodeSniffer.git
+    branch = 2.9
