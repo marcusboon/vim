@@ -64,18 +64,15 @@ Then initialise and update all the things!
     cd .vim
     ./updatemodule
 
-Next we'll have to install the code standards sniffer thingo
+Next we'll have to setup the code standards sniffer
 
-    sudo pear install PHP_CodeSniffer
+    sudo ln -sfv ~/.vim/PHP_CodeSniffer/scripts/phpcs /usr/bin/phpcs
+    sudo ln -sfv ~/.vim/PHP_CodeSniffer/scripts/phpcbf /usr/bin/phpcbf
 
-Find out where pear installs stuff to
+Then add the moodle and drupal coding standards sniffers (you might have to do this everytime there's an update to the repo)
 
-    pear config-get php_dir
-
-Then add the moodle and drupal coding standards sniffers
-
-    sudo ln -sv ~/.vim/codechecker/moodle/ /usr/share/php/PHP/CodeSniffer/src/Standards/moodle
-    sudo ln -sv ~/.vim/catalyst_drupalcs/coder_sniffer/ /usr/share/php/PHP/CodeSniffer/src/Standards/drupalcatalyst
+    ln -sfv codechecker/moodle PHP_CodeSniffer/CodeSniffer/Standards/moodle
+    ln -sfv catalyst_drupalcs/coder_sniffer PHP_CodeSniffer/CodeSniffer/Standards/drupalcatalyst
 
 Then install PHP Mess Detector
 
