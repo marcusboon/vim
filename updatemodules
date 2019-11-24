@@ -1,4 +1,4 @@
 #!/bin/bash
 # Fully update the git repo that we are sitting in
 
-git fetch --all && git pull && git submodule init && git submodule update && git submodule foreach 'git fetch --all; git checkout $(git config --get submodule.$path.branch); git pull'
+git fetch --all && git pull && git submodule init && git submodule update && git submodule foreach 'git fetch --all; git checkout $(git config --get --file=$HOME/.vim/.gitmodules submodule.$path.branch); git pull'
