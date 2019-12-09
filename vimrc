@@ -152,3 +152,6 @@ cmap w!! w !sudo tee > /dev/null %
 " Jump to definition if there is only one, or else show list of definitions to
 " choose from if there are multiple.
 nnoremap <c-]> g<c-]>
+
+" Shortcut for git blame
+nnoremap gb :Gblame<CR>
