@@ -24,7 +24,7 @@ set smartindent
 set ruler                                           "Always show where you are"
 set makeprg=php\ -l\ %
 set errorformat=%m\ in\ %f\ on\ line\ %l
-set tags=tags,../tags,../../tags,../../../tags,../../../../tags,../../../../../tags,../../../../../../tags,../../../../../../../tags                             "Make use of exuberant ctags"
+set tags=./tags,tags;                               "Make use of exuberant ctags"
 match Error /\t\|\s\+$/                             "Show trailing whitespace as ugly red blocks"
 set backspace=indent,eol,start                      "Fix this weird backspace issue deleting lines"
 set wildmenu                                        "Enable a menu at the bottom of the window"
@@ -61,6 +61,9 @@ map <leader>f za<CR>
 map <leader>p :CtrlP<CR>
 map <leader>b :CtrlPBuffer<CR>
 
+" Seach recursively from the ancestor containing .git
+let g:ctrlp_working_path_mode = 'ra'
+
 "NERDTree stuff"
 "Automatically load nerdtree when we open vim and no files are specified"
 autocmd StdinReadPre * let s:std_in=1
@@ -82,6 +85,8 @@ nmap <leader><space> :call whitespace#strip_trailing()<CR>
 "Setup syntastic code checker"
 let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_css_checkers = ['stylelint']
+let g:syntastic_scss_checkers = ['stylelint']
 let g:syntastic_enable_signs=1
 let g:syntastic_php_phpcs_args="--standard=moodle --extensions=php"
 let g:syntastic_php_phpmd_post_args = "~/.vim/phpmdruleset.xml"
