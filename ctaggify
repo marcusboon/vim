@@ -1,4 +1,1 @@
-ctags --langmap=php:.engine.inc.module.theme.install.php -R --languages=php --exclude="CVS" --php-kinds=f \
---regex-PHP='/abstract\s+class\s+([^ ]+)/\1/c/' \
---regex-PHP='/interface\s+([^ ]+)/\1/c/' \
---regex-PHP='/(public\s+|static\s+|abstract\s+|protected\s+|private\s+)function\s+\&?\s*([^ (]+)/\2/f/'
+ctags -R --fields=+aimS --php-kinds=cdfint --languages=php --extras=+q --tag-relative=yes --exclude=".git" --exclude="vendor" --exclude="node_modules" --exclude="composer.phar" --totals=yes

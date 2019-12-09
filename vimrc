@@ -24,7 +24,7 @@ set smartindent
 set ruler                                           "Always show where you are"
 set makeprg=php\ -l\ %
 set errorformat=%m\ in\ %f\ on\ line\ %l
-set tags=./tags;                                    "Make use of exuberant ctags"
+set tags=tags,../tags,../../tags,../../../tags,../../../../tags,../../../../../tags,../../../../../../tags,../../../../../../../tags                             "Make use of exuberant ctags"
 match Error /\t\|\s\+$/                             "Show trailing whitespace as ugly red blocks"
 set backspace=indent,eol,start                      "Fix this weird backspace issue deleting lines"
 set wildmenu                                        "Enable a menu at the bottom of the window"
