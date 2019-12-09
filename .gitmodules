@@ -66,3 +66,7 @@
     branch = 2.9
     path = PHP_CodeSniffer
     url = git@github.com:squizlabs/PHP_CodeSniffer.git
+[submodule "bundle/tagbar-phpctags"]
+    path = bundle/tagbar-phpctags
+    url = https://github.com/vim-php/tagbar-phpctags.vim.git
+    branch = master
