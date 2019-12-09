@@ -113,6 +113,8 @@ let php_htmlInstrings=1
 let g:tagbar_usearrows=1
 let g:tagbar_autofocus=1
 let g:tagbar_autoclose=1
+let g:tagbar_phpctags_bin='$HOME/.vim/phpctags.php'
+let g:tagbar_phpctags_memory_limit = '1024M'
 nnoremap <leader>l :TagbarToggle<CR>
 
 "Gundo stuff"
