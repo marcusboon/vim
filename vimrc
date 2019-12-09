@@ -81,6 +81,7 @@ nmap <leader><space> :call whitespace#strip_trailing()<CR>
 
 "Setup syntastic code checker"
 let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
+let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_enable_signs=1
 let g:syntastic_php_phpcs_args="--standard=moodle --extensions=php"
 let g:syntastic_php_phpmd_post_args = "~/.vim/phpmdruleset.xml"
