@@ -66,6 +66,10 @@
     branch = master
     path = bundle/vim-snippets
     url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/vim-surround"]
+    branch = master
+    path = bundle/vim-surround
+    url = git@github.com:tpope/vim-surround.git
 [submodule "codechecker"]
     branch = master
     path = codechecker
