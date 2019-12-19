@@ -38,10 +38,6 @@
     branch = master
     path = bundle/tagbar
     url = https://github.com/majutsushi/tagbar.git
-[submodule "bundle/tagbar-phpctags"]
-    branch = master
-    path = bundle/tagbar-phpctags
-    url = https://github.com/vim-php/tagbar-phpctags.vim.git
 [submodule "bundle/tlib"]
     branch = master
     path = bundle/tlib
