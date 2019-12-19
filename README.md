@@ -13,6 +13,8 @@ Config files and extensions for vim to make it more awesome!
 * [SuperTab](https://github.com/ervandew/supertab.git), tab completion, nuff said
 * [Gundo](http://sjl.bitbucket.org/gundo.vim/), Graphical undo for vim!
 * [Snipmate](https://github.com/garbas/vim-snipmate), quickly paste snippets of code
+* [Surround](https://github.com/tpope/vim-surround), quickly surround your code with brackets
+* [GitV](https://github.com/gregsexton/gitv), gitk for vim
 
 ### vim key bindings
 
@@ -31,11 +33,20 @@ Config files and extensions for vim to make it more awesome!
     - `F3` Step through the functions
     - `F2` Step into a function
     - `F4` Step out of a function
-    - `CtrlB` Set a breakpoint for VDebug
+    - `F10` Set a breakpoint for VDebug
+* Quickly surround your code with brackets
+    - Select some code using visual mode `v` and then
+    - `S(` for adding spaces or `S)` without spaces
+    - You can also substitute for curly `{}` or square brackets `[]`
 * Because mouse interactions are turned on, if you want to copy text from vim, you will have to press `Shift` and then make the selection or else it will go into Visual selection mode in VIM
 
-### Git integration with fugitive
+### Git integration with fugitive and gitv
 
+* [Fugitive](https://github.com/tpope/vim-fugitive) and [GitV](https://github.com/gregsexton/gitv) keymappings
+    - `gb` Git blame
+    - `gq` Close the windows
+    - `gv` Gitk the entire project, `q` to close
+    - `gfv` Gitk the current file, `q` to close
 * Resolving 3-way merge conflicts with fugitive tutorial [here] (http://vimcasts.org/episodes/fugitive-vim-resolving-merge-conflicts-with-vimdiff/)
     - Open up the conflicted file and run **:Gdiff** which will open up two extra buffers with the target (i.e. the branch you're currently on) on the left and merge (i.e. the branch you're merging in) on the right
     - Fugitive usually has a consistent naming structure for buffspec for these two, so the target would be //2 and the merge would be //3
