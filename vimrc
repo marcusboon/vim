@@ -163,3 +163,7 @@ nnoremap <c-]> g<c-]>
 
 " Shortcut for git blame
 nnoremap gb :Gblame<CR>
+
+" Shortcut for gitv
+nnoremap gv :Gitv<CR>
+nnoremap gfv :Gitv!<CR>
