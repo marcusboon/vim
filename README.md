@@ -1,4 +1,3 @@
-# MY AWESOME VIM
 
 Config files and extensions for vim to make it more awesome!
 
@@ -73,7 +72,7 @@ Then clone the repo
 Then initialise and update all the things!
 
     cd .vim
-    ./updatemodule
+    ./updatemodules
 
 Next we'll have to setup the code standards sniffer
 
