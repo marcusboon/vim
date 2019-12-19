@@ -100,7 +100,9 @@ let g:vdebug_options = {
 \ 'port': '9000',
 \ 'on_close': 'detach'
 \}
-map <c-b> :Breakpoint<CR>
+let g:vdebug_options['path_maps'] = {
+\ '/var/www/site' : '/home/marcus/workspace/monash/elms/site'
+\}
 
 "Autocompletion"
 filetype plugin on
