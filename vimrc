@@ -167,3 +167,9 @@ nnoremap gb :Gblame<CR>
 " Shortcut for gitv
 nnoremap gv :Gitv<CR>
 nnoremap gfv :Gitv!<CR>
+
+" Shortcuts for threeway-merge resolution
+nnoremap gd :Gdiffsplit!<CR>
+nnoremap gdt :diffget //2<CR>
+nnoremap gtm :diffget //3<CR>
+nnoremap gu :diffupdate<CR>
