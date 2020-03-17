@@ -5,67 +5,67 @@
 [submodule "bundle/ctrlp"]
     branch = master
     path = bundle/ctrlp
-    url = https://github.com/kien/ctrlp.vim.git
+    url = git@github.com:kien/ctrlp.vim.git
 [submodule "bundle/delimitmate"]
     branch = master
     path = bundle/delimitmate
-    url = https://github.com/Raimondi/delimitMate.git
+    url = git@github.com:Raimondi/delimitMate.git
 [submodule "bundle/gitv"]
     branch = master
     path = bundle/gitv
-    url = https://github.com/gregsexton/gitv.git
+    url = git@github.com:gregsexton/gitv.git
 [submodule "bundle/gundo"]
     branch = master
     path = bundle/gundo
-    url = https://github.com/sjl/gundo.vim
+    url = git@github.com:sjl/gundo.vim.git
 [submodule "bundle/mwutils"]
     branch = master
     path = bundle/mwutils
-    url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+    url = git@github.com:MarcWeber/vim-addon-mw-utils.git
 [submodule "bundle/nerdtree"]
     branch = master
     path = bundle/nerdtree
-    url = https://github.com/scrooloose/nerdtree.git
+    url = git@github.com:preservim/nerdtree.git
 [submodule "bundle/phpcomplete.vim"]
     branch = master
     path = bundle/phpcomplete.vim
-    url = https://github.com/shawncplus/phpcomplete.vim.git
+    url = git@github.com:shawncplus/phpcomplete.vim.git
 [submodule "bundle/supertab"]
     branch = master
     path = bundle/supertab
-    url = https://github.com/ervandew/supertab.git
+    url = git@github.com:ervandew/supertab.git
 [submodule "bundle/syntastic"]
     branch = master
     path = bundle/syntastic
-    url = https://github.com/scrooloose/syntastic.git
+    url = git@github.com:vim-syntastic/syntastic.git
 [submodule "bundle/tagbar"]
     branch = master
     path = bundle/tagbar
-    url = https://github.com/majutsushi/tagbar.git
+    url = git@github.com:majutsushi/tagbar.git
 [submodule "bundle/tlib"]
     branch = master
     path = bundle/tlib
-    url = https://github.com/tomtom/tlib_vim.git
+    url = git@github.com:tomtom/tlib_vim.git
 [submodule "bundle/vawa"]
     branch = master
     path = bundle/vawa
-    url = https://github.com/vim-scripts/vawa.vim
+    url = git@github.com:vim-scripts/vawa.vim.git
 [submodule "bundle/vdebug"]
     branch = master
     path = bundle/vdebug
-    url = https://github.com/joonty/vdebug.git
+    url = git@github.com:vim-vdebug/vdebug.git
 [submodule "bundle/vim-fugitive"]
     branch = master
     path = bundle/vim-fugitive
-    url = https://github.com/tpope/vim-fugitive.git
+    url = git@github.com:tpope/vim-fugitive.git
 [submodule "bundle/vim-snipmate"]
     branch = master
     path = bundle/vim-snipmate
-    url = https://github.com/garbas/vim-snipmate.git
+    url = git@github.com:garbas/vim-snipmate.git
 [submodule "bundle/vim-snippets"]
     branch = master
     path = bundle/vim-snippets
-    url = https://github.com/honza/vim-snippets.git
+    url = git@github.com:honza/vim-snippets.git
 [submodule "bundle/vim-surround"]
     branch = master
     path = bundle/vim-surround
@@ -73,4 +73,4 @@
 [submodule "codechecker"]
     branch = master
     path = codechecker
-    url = https://github.com/moodlehq/moodle-local_codechecker
+    url = git@github.com:moodlehq/moodle-local_codechecker.git
