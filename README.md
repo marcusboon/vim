@@ -14,6 +14,7 @@ Config files and extensions for vim to make it more awesome!
 * [Snipmate](https://github.com/garbas/vim-snipmate), quickly paste snippets of code
 * [Surround](https://github.com/tpope/vim-surround), quickly surround your code with brackets
 * [GitV](https://github.com/gregsexton/gitv), gitk for vim
+* [Vdebug](https://github.com/vim-vdebug/vdebug), Xdebug for vim
 
 ### vim key bindings
 
@@ -29,10 +30,15 @@ Config files and extensions for vim to make it more awesome!
 * `,t` Update tags file, make sure you're in the root directory of your project
 * Debugging keys
     - `F5` Make Vim try and connect to the debugger
-    - `F3` Step through the functions
-    - `F2` Step into a function
-    - `F4` Step out of a function
+    - `F2` Step over
+    - `F3` Step into
+    - `F4` Step out
+    - `F6` Stop debugger
+    - `F7` Detach script from debugger
+    - `F9` Run to cursor
     - `F10` Set a breakpoint for VDebug
+    - `F11` Show context variables (e.g. after "eval")
+    - `F12` Evaluate variable under cursor
 * Quickly surround your code with brackets
     - Select some code using visual mode `v` and then
     - `S(` for adding spaces or `S)` without spaces
