@@ -1,7 +1,3 @@
-[submodule "PHP_CodeSniffer"]
-    branch = 2.9
-    path = PHP_CodeSniffer
-    url = git@github.com:squizlabs/PHP_CodeSniffer.git
 [submodule "bundle/ctrlp"]
     branch = master
     path = bundle/ctrlp
