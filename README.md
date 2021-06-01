@@ -82,8 +82,8 @@ Then initialise and update all the things!
 
 Next we'll have to setup the code standards sniffer
 
-    sudo ln -sfv ~/.vim/PHP_CodeSniffer/scripts/phpcs /usr/bin/phpcs
-    sudo ln -sfv ~/.vim/PHP_CodeSniffer/scripts/phpcbf /usr/bin/phpcbf
+    sudo ln -sfv ~/.vim/PHP_CodeSniffer/bin/phpcs /usr/bin/phpcs
+    sudo ln -sfv ~/.vim/PHP_CodeSniffer/bin/phpcbf /usr/bin/phpcbf
 
 Then add the moodle and drupal coding standards sniffers (you might have to do this everytime there's an update to the repo)
 
