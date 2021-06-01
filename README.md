@@ -82,13 +82,12 @@ Then initialise and update all the things!
 
 Next we'll have to setup the code standards sniffer
 
-    sudo ln -sfv ~/.vim/PHP_CodeSniffer/bin/phpcs /usr/bin/phpcs
-    sudo ln -sfv ~/.vim/PHP_CodeSniffer/bin/phpcbf /usr/bin/phpcbf
+    sudo ln -sfv ~/.vim/codechecker/phpcs/bin/phpcs /usr/bin/phpcs
+    sudo ln -sfv ~/.vim/codechecker/phpcs/bin/phpcbf /usr/bin/phpcbf
 
-Then add the moodle and drupal coding standards sniffers (you might have to do this everytime there's an update to the repo)
+Then add the drupal coding standards sniffers (you might have to do this everytime there's an update to the repo)
 
-    ln -sfv ~/.vim/codechecker/moodle PHP_CodeSniffer/src/Standards/moodle
-    ln -sfv ~/.vim/catalyst_drupalcs/coder_sniffer/Drupal PHP_CodeSniffer/src/Standards/drupalcatalyst
+    ln -sfv ~/.vim/catalyst_drupalcs/coder_sniffer/Drupal codechecker/phpcs/src/Standards/drupalcatalyst
 
 Then install PHP Mess Detector
 
