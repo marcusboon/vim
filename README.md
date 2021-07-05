@@ -36,7 +36,8 @@ Config files and extensions for vim to make it more awesome!
     - `F6` Stop debugger
     - `F7` Detach script from debugger
     - `F9` Run to cursor
-    - `F10` Set a breakpoint for VDebug
+    - `F10` or `,sb` Set a breakpoint for VDebug
+    - `,rb` Remove breakpoint for VDebug
     - `F11` Show context variables (e.g. after "eval")
     - `F12` Evaluate variable under cursor
 * Quickly surround your code with brackets

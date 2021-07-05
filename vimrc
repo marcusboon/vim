@@ -103,6 +103,8 @@ let g:vdebug_options = {
 let g:vdebug_options['path_maps'] = {
 \ '/var/www/site' : '/home/marcus/workspace/monash/elms/site'
 \}
+nmap <leader>sb :Breakpoint<CR>
+nmap <leader>rb :BreakpointRemove *<CR>
 
 "Autocompletion"
 filetype plugin on
