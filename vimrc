@@ -166,7 +166,7 @@ cmap w!! w !sudo tee > /dev/null %
 nnoremap <c-]> g<c-]>
 
 " Shortcut for git blame
-nnoremap gb :Gblame<CR>
+nnoremap gb :Git blame<CR>
 
 " Shortcut for gitv
 nnoremap gv :Gitv<CR>
