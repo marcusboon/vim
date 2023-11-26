@@ -67,6 +67,6 @@
     path = bundle/vim-surround
     url = git@github.com:tpope/vim-surround.git
 [submodule "codechecker"]
-    branch = master
+    branch = main
     path = codechecker
     url = git@github.com:moodlehq/moodle-local_codechecker.git
