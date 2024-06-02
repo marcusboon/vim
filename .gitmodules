@@ -27,7 +27,7 @@
     path = bundle/phpcomplete.vim
     url = git@github.com:shawncplus/phpcomplete.vim.git
 [submodule "bundle/supertab"]
-    branch = master
+    branch = main
     path = bundle/supertab
     url = git@github.com:ervandew/supertab.git
 [submodule "bundle/syntastic"]
