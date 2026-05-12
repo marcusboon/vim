@@ -171,3 +171,8 @@ nnoremap gd :Gdiffsplit!<CR>
 nnoremap gdt :diffget //2<CR>
 nnoremap gtm :diffget //3<CR>
 nnoremap gu :diffupdate<CR>
+
+" Syntax for yaml files
+au FileType yaml setlocal tabstop=2 shiftwidth=2 softtabstop=2
+au FileType yml setlocal tabstop=2 shiftwidth=2 softtabstop=2
+let g:syntastic_yaml_checkers = ['yamllint']
